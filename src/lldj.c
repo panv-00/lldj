@@ -33,8 +33,8 @@ void generate_distinct_random_numbers(int lower, int upper, int n)
     }
   }
 
-  printf("Selecting %d distinct random numbers between %d and %d:\n", n, lower,
-         upper);
+  printf("Selecting %d distinct random number(s) between %d and %d:\n", n,
+         lower, upper);
 
   for (int i = 0; i < n; i++)
   {
